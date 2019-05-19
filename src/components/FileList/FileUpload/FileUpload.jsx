@@ -17,7 +17,7 @@ const FileUpload = ({ fileUploadHandler, fileChangeHandler, openModal, closeModa
             />
             <div className="Upload-Btn-Wrapper">
                 <button className="Btn Upload_Button" onClick={fileUploadHandler}>Upload <img src={UploadImage} className="ml-2" alt="upload" width="15" /></button>
-                <input type="file" onChange={fileChangeHandler} accept=".pdf,.doc,.docx" />
+                <input type="file" onChange={fileChangeHandler} accept=".pdf" />
             </div>
         </React.Fragment>
     )
