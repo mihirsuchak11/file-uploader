@@ -1,0 +1,55 @@
+@import './color.scss';
+
+.Upload_Button {
+    border: 0 none;
+    color: $grey-color;
+    background: none;
+    // cursor: pointer;
+    font-size: 15px;
+}
+
+.Upload-Btn-Wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.Button {
+    // background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: $white-color;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Primary_Button {
+    background-color: $primary-color;
+}
+
+.Secondary_Button {
+    background-color: $secondary-color;
+    color: $black-color;
+}
+
+button {
+    &.disabled {
+        // border: 1px solid #999999;
+        background-color: #cccccc;
+        cursor: not-allowed;
+        pointer-events: none;
+        color: #666666;
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}

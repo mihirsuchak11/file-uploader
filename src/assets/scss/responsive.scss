@@ -1,0 +1,43 @@
+@media (max-width: 992px) {
+    .File_List {
+        // overflow: hidden;
+        // position: relative !important;
+        left: -30% !important;
+        // transition: 0.2s all;
+
+        &.open {
+            transition: 0.3s all;
+            left: 0% !important;
+            z-index: 111;
+            width: 300px !important;
+        }
+    }
+
+    .File_Header {
+        left: 0 !important;
+    }
+
+    .Menu__Icon {
+        cursor: pointer;
+        display: block !important;
+    }
+
+    .Close_Button {
+        display: block !important;
+    }
+
+    .Layout {
+        margin-left: 0 !important;
+    }
+
+    //typography
+    h2 {
+        font-size: 22px;
+    }
+
+    .List {
+        p {
+            font-size: 14px;
+        }
+    }
+}

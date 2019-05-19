@@ -1,0 +1,31 @@
+@import '../../assets/scss/color.scss';
+
+.File_Header {
+    background: $primary-color;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 20%;
+
+    .Title {
+        color: $white-color;
+        padding: 15px;
+    }
+}
+
+.File {
+    padding: 15px;
+    margin-top: 70px;
+}
+
+.Menu__Icon {
+    display: none;
+
+    >div {
+        width: 30px;
+        height: 4px;
+        background-color: $white-color;
+        margin: 6px 0;
+        border-radius: 5px;
+    }
+}
